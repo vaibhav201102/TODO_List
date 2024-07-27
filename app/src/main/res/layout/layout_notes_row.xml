@@ -31,7 +31,7 @@
 
     </androidx.cardview.widget.CardView>
 
-    <com.google.android.material.imageview.ShapeableImageView
+    <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/note_delete"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="@+id/note"
         app:tint="@color/colorPrimaryDark" />
 
-    <com.google.android.material.imageview.ShapeableImageView
+    <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/note_edit"
         android:layout_width="24dp"
         android:layout_height="24dp"
